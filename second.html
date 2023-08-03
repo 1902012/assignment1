@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Children Shop</title>
+    <style>
+        body {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.0;
+        }
+
+        /* General styling for frames */
+        .frame {
+            padding: 30px;
+            box-sizing: border-box;
+            box-shadow: #ccc;
+            border: double;
+        }
+
+        #left-frame {
+            flex: 20%;
+            border-right: 1px solid #ccc;
+            background-color: #ffe6e6;
+        }
+
+        #center-frame {
+            flex: 60%;
+            background-color: #ffcccc;
+        }
+
+        #right-frame {
+            flex: 20%;
+            background-color:#ffb3b3 ;
+        }
+
+        /* Eye-catching font color */
+        h2 {
+            color: black;
+        }
+
+        /* Styling for links */
+        a {
+            color: navy;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: tomato;
+        }
+
+        /* Styling for audio and video elements */
+        audio, video {
+            width: 100%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="left-frame" class="frame">
+        <h2>Contents</h2>
+        <ul>
+            <li><a href="#part1">Children</a></li>
+            <li><a href="#part2">Their favourite toys</a></li>
+            <li><a href="#part3">Toys in Bangladesh</a></li>
+            <!-- Add more links to other sections -->
+        </ul>
+    </div>
+
+    <div id="center-frame" class="frame">
+        <h1></h1>
+
+        <h2 id="section1">Children</h2>
+        <p>   <strong>   Children love to play, and their favorite activities vary depending on their age and interests. Some popular activities include playing with toys, dress-up, imaginative play, and sports. Children are naturally curious and love to explore their surroundings. They enjoy going on new adventures, whether it's exploring the backyard, going to the park, or visiting a new place.</strong>      
+        </p>
+
+        <h2 id="section2">Their favourite toys</h2>
+        <p>
+            Building blocks are a classic toy that has been enjoyed by children for generations. They are a great way for children to develop their fine motor skills, problem-solving skills, and creativity. Dolls are another classic toy that is popular with children of all ages. They are a great way for children to learn about caring for others, and they can also be used for imaginative play. Cars and trucks are a popular choice for boys, especially those who are interested in transportation. They are a great way for children to learn about the world around them, and they can also be used for imaginative play.
+        </p>
+
+        <h2 id="section3">Toys in Bangladesh</h2>
+        <p>
+            Board games are a great way for children to learn about cooperation, turn-taking, and sportsmanship. They can also be a lot of fun, and they can help children develop their strategic thinking skills. Some popular brands of board games in Bangladesh include Monopoly, Scrabble, and Chutes and Ladders.
+        </p>
+
+        <!-- Add more sections and content as needed -->
+
+        <h2>Embedded Audio</h2>
+        <audio controls>
+            <source src="sweets-134994.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h2>Embedded Video</h2>
+        <video controls width="640" height="360">
+            <source src="mixkit-baby-on-the-belly-of-his-mother-plays-and-smiles-4042-medium.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </div>
+
+    <div id="right-frame" class="frame">
+        <h2>Remarks</h2>
+        <p>
+            These are just a few of the many popular children's toys in Bangladesh. The best way to choose the right toys for your child is to consider their interests and personality. With so many great toys available, there is sure to be something that your child will love.
+        </p>
+    </div>
+</body>
+</html>
+
+
+
